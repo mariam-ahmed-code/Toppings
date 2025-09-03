@@ -1,0 +1,50 @@
+  body{
+    text-align: center;
+  }  
+    
+ h1{
+background-color: rgb(215, 187, 215);
+color: black;
+width: 50%;
+margin-bottom: 50px;
+margin: auto;
+}
+
+.containar{
+display: grid;
+grid-template-columns: 400px 400px 400px;
+justify-content: center;
+text-align: center;
+}
+
+.containar p{
+    padding: 20px;
+    background:linear-gradient(pink,gray,rgb(210, 169, 222)) ;
+}
+.containar img{
+width: 150px;
+height: 150px;
+padding-bottom: 20px;
+margin: auto;
+animation: rotate 4s linear infinite alternate;
+}
+@keyframes rotate{
+from{
+transform: rotate(-45deg);
+}
+to{
+transform: rotate(45adg);
+}
+}
+@media (max-width:768px ){
+.containar{
+    display: flex;
+}    
+}
+
+
+
+
+
+
+
