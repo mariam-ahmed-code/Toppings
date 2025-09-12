@@ -39,12 +39,14 @@ transform: rotate(45adg);
 @media (max-width:768px ){
 .containar{
     display: flex;
-}    
+  flex-direction:column;
 }
+  .containar p{
+    padding:10px;
+  }
 
-
-
-
-
-
-
+  .containar img{
+width: 80px;
+height: 800px;
+}
+}
